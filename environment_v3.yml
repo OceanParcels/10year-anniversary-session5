@@ -1,4 +1,4 @@
-name: parcels_10yr_event
+name: parcels_v3_10yr_event
 channels:
   - conda-forge
 dependencies:

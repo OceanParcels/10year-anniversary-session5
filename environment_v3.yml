@@ -5,6 +5,9 @@ dependencies:
   - parcels >3.1.0
   - copernicusmarine >= 2
 
+  # Kernel workshop dependencies
+  - plotly
+
   # Visualization workshop dependencies
   - h5py
   - matplotlib

@@ -3,3 +3,7 @@
 [![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/OceanParcels/10year-anniversary-session5/main)
 
 [↩️ Back to all sessions](https://github.com/OceanParcels/10year-anniversary-event)
+
+---
+
+<!-- If you want, write a 2 sentence description below this  -->

@@ -109,12 +109,12 @@ class TransparentEllipses(object):
         if ref_colour_nitems > 0 and (isinstance(self._linewidths, np.ndarray) or type(self._linewidths) in [list, ]):
             assert self._linewidths.shape[0] == ref_colour_nitems
         else:
-            assert type(self._linewidths) in [np.float_, np.float32, np.float64, float]
+            assert type(self._linewidths) in [np.float32, np.float64, float]
         self._markersizes = s if s is not None else 1.0
         if ref_colour_nitems > 0 and (isinstance(self._markersizes, np.ndarray) or type(self._markersizes) in [list, ]):
             assert self._markersizes.shape[0] == ref_colour_nitems
         else:
-            assert type(self._markersizes) in [np.float_, np.float32, np.float64, float]
+            assert type(self._markersizes) in [np.float32, np.float64, float]
             self._markersizes = np.ones(self._npts, dtype=np.float32) * self._markersizes
         # self._offsets = np.c_[x, y].reshape(-1, 1, 2)
         self._offsets = np.column_stack((x, y))  # .reshape(-1, 1, 2)
